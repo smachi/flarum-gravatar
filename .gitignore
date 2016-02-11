@@ -1,0 +1,5 @@
+composer.phar
+composer.lock
+vendor
+js/admin/node_modules
+js/forum/node_modules

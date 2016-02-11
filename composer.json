@@ -1,0 +1,40 @@
+{
+	"name": "smachi/flarum-gravatar",
+	"version": "0.1.1",
+	"description": "Display gravatar if no avatar was uploaded by user.",
+	"type": "flarum-extension",
+	"keywords": [
+		"gravatar",
+		"avatar",
+		"flarum"
+	],
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Salva Machí (ThemeLoops team)",
+			"email": "salvamb@sispixels.com"
+		}
+	],
+	"support": {
+		"issues": "https://github.com/smachi/flarum-gravatar/issues",
+		"source": "https://github.com/smachi/flarum-gravatar"
+	},
+	"require": {
+		"flarum/core": "^0.1.0-beta.3"
+	},
+	"autoload": {
+		"psr-4": {
+			"Smachi\\Gravatar\\": "src/"
+		}
+	},
+	"extra": {
+		"flarum-extension": {
+			"title": "Gravatar",
+			"icon": {
+				"name": "user",
+				"backgroundColor": "#1E8CBE",
+				"color": "#FFF"
+			}
+		}
+	}
+}
