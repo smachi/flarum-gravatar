@@ -31,8 +31,7 @@ class AddClientAssets {
 
 		if ( $event->isForum() ) {
 			$event->addAssets( [
-				__DIR__ . '/../../js/forum/dist/extension.js',
-				__DIR__ . '/../../less/forum/extension.less'
+				__DIR__ . '/../../js/forum/dist/extension.js'
 			] );
 			$event->addBootstrapper( 'smachi/gravatar/main' );
 		}
